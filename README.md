@@ -26,7 +26,7 @@ To run this project, you’ll need the following tools:
 
    After installing the CLI, run the following command to create a custom subnet:
    ```bash
-   avalanche subnet create <your-subnet-name>
+   avalanche subnet create <subnet-name>
    ```
    Provide a unique chain ID and token symbol when prompted. Choose default options for other settings unless you want to customize further.
 
@@ -34,7 +34,7 @@ To run this project, you’ll need the following tools:
 
    Once your subnet is configured, deploy it to your local network:
    ```bash
-   avalanche subnet deploy <your-subnet-name>
+   avalanche subnet deploy <subnet-name>
    ```
 
    Example output includes important details like RPC URL, funded addresses, and network parameters:
